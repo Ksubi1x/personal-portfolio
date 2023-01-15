@@ -1,0 +1,38 @@
+.header {
+   
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    
+    
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.navList {
+    list-style: none;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+    text-decoration-color: lightgreen;
+    text-decoration-thickness: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .navMenu {
+        display: none;
+    }
+}
