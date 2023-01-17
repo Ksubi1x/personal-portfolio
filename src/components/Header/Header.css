@@ -11,13 +11,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 100%; 
+}
+
+.navigation h3 {
+    font-weight: lighter;
 }
 
 .navMenu {
     display: flex;
     justify-content: space-around;
-    width: 20%;
+    width: 25%;
 }
 
 .navList {
@@ -31,7 +35,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .navMenu {
         display: none;
     }

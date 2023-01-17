@@ -40,6 +40,8 @@
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    z-index: 1;
+    transition: right .8s cubic-bezier(1, 0, 0, 1);
     
 }
 
@@ -68,7 +70,7 @@
     top: 15%;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     .lines {
         display: none;
     }
