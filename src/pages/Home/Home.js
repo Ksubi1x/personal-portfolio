@@ -1,7 +1,24 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Header from '../../components/Header/Header'
 import './Home.css'
+import emailjs from '@emailjs/browser'
+
+
 const Home = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_9gpxkhl', 'template_1hna7ku', form.current, 'LjKVSY5RkUY4dz790')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <div className='home'>
        
@@ -28,7 +45,7 @@ const Home = () => {
                 <div className='line'></div>
               </div>
               <p>My name is Jesus Hernandez, and I am a Frontend Web Developer specialized in 
-                building products for customers by making their web designs come to life. 
+                creating responsive web pages for customers. 
               </p>
 
               <p>Feel free to <a className='contactLink' href='#'>contact me</a> if you'd like to talk. Wether it's work related or not, it doesn't matter.</p>
@@ -111,8 +128,40 @@ const Home = () => {
               </div>
               
             </section>
+
+            <section className='contactForm'>
+              <div className='formContainer' id='contact'>
+                <form className='formBox' ref={form} onSubmit={sendEmail}>
+                  <h3 className='title'>Contact Me</h3>
+                  <label>Name</label>
+                  <input type="text" name="user_name" />
+                  <label>Email</label>
+                  <input type="email" name="user_email" />
+                  <label>Message</label>
+                  <textarea name="message" />
+                  <div className='lineSpace'></div>
+                  <button>Submit</button>
+                </form>
+              </div>
+            </section>
+
+            <section className='footer'>
+              <h3>Socials:</h3>
+
+              <ul className='socials'>
+                <li>
+                  <a className='projectLink' href='https://github.com/Ksubi1x' target='_blank'>Github </a>
+                </li>
+                <li>
+                  <a className='projectLink'>xKsubi1x@gmail.com</a>
+                </li>
+                <li>
+                  <a className='projectLink' href='https://www.linkedin.com/in/jesus-hernandez-77a152257/' target='_blank'>LinkedIn </a>
+                </li>
+                
+              </ul>
+            </section>
           </div>
-          
         </main>
     </div>
   )

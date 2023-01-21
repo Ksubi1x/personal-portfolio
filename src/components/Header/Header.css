@@ -21,18 +21,37 @@
 .navMenu {
     display: flex;
     justify-content: space-around;
-    width: 25%;
+    width: 10%;
 }
 
 .navList {
     list-style: none;
 }
 
+.navLink {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
 .navLink:hover {
-    text-decoration: underline;
-    text-decoration-color: lightgreen;
-    text-decoration-thickness: 4px;
+   
     cursor: pointer;
+}
+
+.navLink::after {
+    content: "";
+    position: absolute;
+    background-color: lightgreen;
+    height: 4px;
+    width: 0%;
+    left: 0;
+    bottom: -3px;
+}
+
+.navLink:hover::after {
+    width: 100%;
+    transition: 0.3s;
 }
 
 @media screen and (max-width: 800px) {

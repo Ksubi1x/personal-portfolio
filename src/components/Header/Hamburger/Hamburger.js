@@ -23,9 +23,6 @@ const Hamburger = () => {
 
         <nav className={`menu ${classAdded} `}>
             <ul className='menuList'>
-                <li className='menuItem'>
-                    <a href='#' className='link'>Home</a>
-                </li>
                
                 <li className='menuItem'>
                     <a href='#' className='link'>Contact me</a>
