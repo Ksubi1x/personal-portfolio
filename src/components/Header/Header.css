@@ -21,7 +21,7 @@
 .navMenu {
     display: flex;
     justify-content: space-around;
-    width: 10%;
+    width: 15%;
 }
 
 .navList {

@@ -92,6 +92,41 @@ const Home = () => {
                     </ul>
                   </div>
                 </section>
+
+
+                <section className='project'>
+                  <div className='projectDesc'>
+                    <h2>Password Generator</h2>
+                    <p className='technologies'>HTML, CSS, JavaScript</p>
+                    <p>Fully functional password generator with custom selections.</p>
+                    <ul>
+                      <li>
+                        <a className='projectLink' href='https://ksubi1x.github.io/password-generator/' target="_blank">- Live Link</a>
+                      </li>
+                      <li>
+                        <a href='https://github.com/Ksubi1x/password-generator' target="_blank" className='projectLink'>- Repository Link</a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+
+
+                <section className='project'>
+                  <div className='projectDesc'>
+                    <h2>Calculator</h2>
+                    <p className='technologies'>HTML, CSS, JavaScript</p>
+                    <p>Just a fully functional calculator that solves simple problems.</p>
+                    <ul>
+                      <li>
+                        <a className='projectLink' href='https://ksubi1x.github.io/calculator/' target="_blank">- Live Link</a>
+                      </li>
+                      <li>
+                        <a href='https://github.com/Ksubi1x/calculator' target="_blank" className='projectLink'>- Repository Link</a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+
                 
                 <section className='project'>
                   <div className='projectDesc'>

@@ -31,7 +31,6 @@
 }
 
 
-.background 
 
 
 .hero {
@@ -60,7 +59,7 @@
 .aboutMe {
     text-align: left;
     padding: 30px;
-    margin: 15px;
+    margin: 15px ;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -69,7 +68,7 @@
 
 .aboutMe p {
     text-align: left;
-    margin: 10px 0px;
+    margin: 10px 0px
 }
 
 .contactLink {
@@ -226,7 +225,8 @@
     outline: none;
     padding: 0px 15px;
     box-sizing: border-box;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
 }
 
 .formBox textarea {
@@ -234,7 +234,8 @@
     resize: none;
     border: none;
     outline: none;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
     padding: 10px 15px;
     
 
@@ -250,7 +251,7 @@
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-    background-color: (#8693AB, #BDD4E7);
+    background-color: white;
 
 }
 
@@ -285,6 +286,7 @@
     padding: 30px;
     list-style: none;
     width: 100%;
+    gap: 30px;
     
 }
 
