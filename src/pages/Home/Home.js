@@ -73,15 +73,15 @@ const Home = () => {
                 </div>
                 <section className='project'>
                   <div className='projectDesc'>
-                    <h2>MyPages</h2>
-                    <p className='technologies'>ReactJS, HTML, CSS, ReactRouter</p>
-                    <p>Simple Login and Register pages I made using React.</p>
+                    <h2>myBook </h2>
+                    <p className='technologies'>HTML, CSS, ReactJS, NodeJS, ExpressJS, MySQL</p>
+                    <p>FullStack CRUD application where users can make posts and comment on them.  (Under Development)</p>
                     <ul>
                       <li>
                         <a className='projectLink' target="_blank" >- Live Link</a>
                       </li>
                       <li>
-                        <a href='https://github.com/Ksubi1x/myPages' target="_blank" className='projectLink'>- Repository Link</a>
+                        <a href='https://github.com/Ksubi1x/myBook' target="_blank" className='projectLink'>- Repository Link</a>
                       </li>
                     </ul>
                   </div>
