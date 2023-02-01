@@ -20,7 +20,7 @@ const Home = () => {
       });
   };
 
-  const [closeMessage, setCloseMessage] = useState(false)
+  const [closeMessage, setCloseMessage] = useState(true)
 
   const popup = () => {
     setCloseMessage(!closeMessage)
