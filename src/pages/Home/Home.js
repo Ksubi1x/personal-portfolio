@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import Header from '../../components/Header/Header'
 import './Home.css'
 import emailjs from '@emailjs/browser'
+import { useState } from 'react'
 
 
 const Home = () => {
@@ -18,6 +19,16 @@ const Home = () => {
           console.log(error.text);
       });
   };
+
+  const [closeMessage, setCloseMessage] = useState(false)
+
+  const popup = () => {
+    setCloseMessage(!closeMessage)
+    console.log(closeMessage)
+  }
+
+  let messageClass = closeMessage ? 'closed' : ''
+
 
   return (
     <div className='home'>
@@ -175,7 +186,7 @@ const Home = () => {
                   <label>Message</label>
                   <textarea name="message" />
                   <div className='lineSpace'></div>
-                  <button>Submit</button>
+                  <button onClick={popup}>Submit</button>
                 </form>
               </div>
             </section>
@@ -196,6 +207,14 @@ const Home = () => {
                 
               </ul>
             </section>
+
+            <div className={`sent ${messageClass}`}>
+              <div className='message'>
+                <h3>Email has been sent!</h3>
+                <button className='formButton' onClick={popup} > X </button>
+              </div>
+            </div>
+
           </div>
         </main>
     </div>

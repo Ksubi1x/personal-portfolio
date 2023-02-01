@@ -8,7 +8,6 @@ const Hamburger = () => {
 
     const setChange = () => {
         setOpened(!opened)
-        
     }
 
     let classAdded = opened ? 'opened' : ''
@@ -25,7 +24,7 @@ const Hamburger = () => {
             <ul className='menuList'>
                
                 <li className='menuItem'>
-                    <a href='#' className='link'>Contact me</a>
+                    <a href='#contact' className='link'>Contact me</a>
                 </li>
             </ul>
         </nav>

@@ -7,9 +7,12 @@ with some information about me, and a contact form to reach out to me.
 
 # Technologies:
 
-- ReactJS
+
+- HTML
 
 - CSS
+
+- ReactJS
 
 - JavaScript / JSX
 
