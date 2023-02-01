@@ -298,7 +298,7 @@
     top: 30px;
     right: 30px;
     background-color: rgb(248, 248, 248);
-    width: 30%;
+    width: 60%;
     padding: 30px;
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
     border-radius: 10px;
@@ -310,6 +310,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .formButton {
@@ -318,7 +319,7 @@
     border: none;
     outline: none;
     cursor: pointer;
-    
+    font-size: 18px;
 }
 
 .closed {
@@ -352,4 +353,27 @@
     .formBox {
         width: 50%;
     }
+
+    .sent {
+        width: 50%;
+    }
 }
+
+@media screen and (min-width: 600px) {
+    .sent {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .sent {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .sent {
+        width: 30%;
+    }
+}
+
