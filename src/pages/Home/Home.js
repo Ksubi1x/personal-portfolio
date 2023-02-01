@@ -59,7 +59,7 @@ const Home = () => {
                 creating responsive web pages for customers. 
               </p>
 
-              <p>Feel free to <a className='contactLink' href='#'>contact me</a> if you'd like to talk. Wether it's work related or not, it doesn't matter.</p>
+              <p>Feel free to <a className='contactLink' href='#contact'>contact me</a> if you'd like to talk. Wether it's work related or not, it doesn't matter.</p>
             </section>
 
             <section className='projects'>
