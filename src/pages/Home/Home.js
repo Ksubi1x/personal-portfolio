@@ -56,7 +56,7 @@ const Home = () => {
                 <div className='line'></div>
               </div>
               <p>My name is Jesus Hernandez, and I am a Frontend Web Developer specialized in 
-                creating responsive web pages for customers. 
+                creating responsive web pages. 
               </p>
 
               <p>Feel free to <a className='contactLink' href='#contact'>contact me</a> if you'd like to talk. Wether it's work related or not, it doesn't matter.</p>
@@ -71,17 +71,35 @@ const Home = () => {
                   <h3>Projects</h3>
                   <div className='line'></div>
                 </div>
+
                 <section className='project'>
                   <div className='projectDesc'>
                     <h2>myBook </h2>
                     <p className='technologies'>HTML, CSS, ReactJS, NodeJS, ExpressJS, MySQL</p>
-                    <p>FullStack CRUD application where users can make posts and comment on them.  (Under Development)</p>
+                    <p>FullStack CRUD application where users can make posts and comment on them.</p>
                     <ul>
                       <li>
-                        <a className='projectLink' target="_blank" >- Live Link</a>
+                        <a className='projectLink' target="_blank" href='https://incredible-tiramisu-d7b018.netlify.app/'>- Live Link</a>
                       </li>
                       <li>
                         <a href='https://github.com/Ksubi1x/myBook' target="_blank" className='projectLink'>- Repository Link</a>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                </section>
+
+                <section className='project'>
+                  <div className='projectDesc'>
+                    <h2>Tocative</h2>
+                    <p className='technologies'>HTML, CSS, ReactJS, NodeJS, ExpressJS, MongoDB</p>
+                    <p>FullStack CRUD application where users sign up and chat with friends.</p>
+                    <ul>
+                      <li>
+                        <a className='projectLink' target="_blank" href="https://pure-woodland-23274.herokuapp.com/">- Live Link</a>
+                      </li>
+                      <li>
+                        <a href='https://github.com/kipschetnan/Tocative' target="_blank" className='projectLink'>- Repository Link</a>
                       </li>
                     </ul>
                   </div>
@@ -94,9 +112,7 @@ const Home = () => {
                     <p className='technologies'>HTML, CSS, JavaScript, MySQL</p>
                     <p>Basic FullStack application using MySQL to track a users calories and store their data.</p>
                     <ul>
-                      <li>
-                        <a className='projectLink' target="_blank">- Live Link</a>
-                      </li>
+                      
                       <li>
                         <a href='https://github.com/kipschetnan/Food-Tracker' target="_blank" className='projectLink'>- Repository Link</a>
                       </li>
@@ -155,21 +171,6 @@ const Home = () => {
                   </div>
                 </section>
                 
-                <section className='project'>
-                  <div className='projectDesc'>
-                    <h2>Forecast Daily</h2>
-                    <p className='technologies'>HTML, Tailwind, JavaScript</p>
-                    <p>Simple weather forecast app using the OpenWeatherAPI</p>
-                    <ul>
-                      <li>
-                        <a href='https://ksubi1x.github.io/Forecast-Daily/' target="_blank" className='projectLink'>- Live Link</a>
-                      </li>
-                      <li>
-                        <a href='https://github.com/Ksubi1x/Forecast-Daily' target="_blank" className='projectLink'>- Repository Link</a>
-                      </li>
-                    </ul>
-                  </div>
-                </section>
 
               </div>
               
